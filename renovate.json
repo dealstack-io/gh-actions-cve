@@ -1,5 +1,11 @@
 {
   "extends": [
-    "github>kunalnagarco/renovate-configs"
+    "github>kunalnagarco/renovate-configs",    
+  ],
+  "packageRules": [
+    {
+      "depTypeList": ["devDependencies"],
+      "enabled": false
+    }
   ]
 }
